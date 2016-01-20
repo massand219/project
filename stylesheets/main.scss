@@ -1,3 +1,6 @@
+$main-color: #8d6b4d;
+$other-color: #c3a488; 
+
 #carousel {
 	position: relative;
 }
@@ -8,7 +11,7 @@
 	display: none;
 	top: 0px;
 	left: 250px;
-	border: 40px solid #8d6b4d;
+	border: 40px solid $main-color
 }
 
 #carousel img:first-of-type {
@@ -26,11 +29,11 @@ h1 {
 #ent {
 	height: 50px;
 	width: 200px;
-	background-color: #c3a488;
-	border: 3px solid #8d6b4d;
+	background-color: $other-color;
+	border: 3px solid $main-color;
 	font-family: 'Crafty Girls';
 	font-size: 25px;
-	color: #8d6b4d;
+	color: $main-color;
 	margin-top: 20px;
 }
 
@@ -44,14 +47,14 @@ h1 {
 	position: relative;
 	left: 941px;
 	bottom: -250px;
-	background-color: #8d6b4d; 
+	background-color: $main-color; 
 }
 
 #prev {
 	position: relative;
 	left: 183px;
 	bottom: -250px;
-	background-color: #8d6b4d;
+	background-color: $main-color;
 }
 
 #next img {
@@ -68,7 +71,7 @@ h1 {
 body {
 	background-image: url("dog-paw.jpg");
 	background-position: center;
-	background-color: #8d6b4d;	
+	background-color: $main-color;	
 }
 
-@media all 
+// @media all 

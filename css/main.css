@@ -1,0 +1,63 @@
+#carousel {
+  position: relative; }
+
+#carousel img {
+  height: 450px;
+  width: 680px;
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 250px;
+  border: 40px solid #8d6b4d; }
+
+#carousel img:first-of-type {
+  display: block; }
+
+h1 {
+  font-family: 'Crafty Girls';
+  text-align: center;
+  font-size: 38px;
+  color: white;
+  /*background-color: white;*/ }
+
+#ent {
+  height: 50px;
+  width: 200px;
+  background-color: #c3a488;
+  border: 3px solid #8d6b4d;
+  font-family: 'Crafty Girls';
+  font-size: 25px;
+  color: #8d6b4d;
+  margin-top: 20px; }
+
+#enter {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 490px; }
+
+#next {
+  position: relative;
+  left: 941px;
+  bottom: -250px;
+  background-color: #8d6b4d; }
+
+#prev {
+  position: relative;
+  left: 183px;
+  bottom: -250px;
+  background-color: #8d6b4d; }
+
+#next img {
+  height: 50px;
+  width: 50px; }
+
+#prev img {
+  height: 50px;
+  width: 50px; }
+
+body {
+  background-image: url("dog-paw.jpg");
+  background-position: center;
+  background-color: #8d6b4d; }
+
+/*# sourceMappingURL=main.css.map */
