@@ -3,18 +3,26 @@ var images = $('#carousel img');
 
 var i = 0;
 
-setInterval(function() {
+function showNextLooped() {
 	images.eq(i).fadeOut();
 	i = (i+1) % images.length;
+	console.log("interval" + i);
 	images.eq(i).fadeIn();
 
-}, 2000);
+}
+
+var interval = setInterval(showNextLooped, 2000);
 
 function showPrevious() {
+	clearInterval(interval);
+
 	images.eq(i).hide();
 
-	i = (i < 0) ? 0 : i - 1 ;
+	i = (i <= 0) ? images.length - 1 : i - 1 ;
+	console.log("prev" + i);
 	images.eq(i).show();
+
+	interval = setInterval(showNextLooped, 2000);
 	}
 $('#prev').click(showPrevious);
 

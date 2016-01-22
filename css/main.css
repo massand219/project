@@ -1,51 +1,69 @@
 #carousel {
-  position: relative; }
-
-#carousel img {
+  position: relative;
   height: 450px;
   width: 680px;
+  margin: 0 auto;
+  border: 40px solid #8d6b4d; }
+
+#carousel img {
+  height: 100%;
+  width: 100%;
   position: absolute;
   display: none;
-  top: 0px;
-  left: 250px;
-  border: 40px solid #8d6b4d; }
+  top: 0;
+  left: 0; }
 
 #carousel img:first-of-type {
   display: block; }
 
 h1 {
-  font-family: 'Crafty Girls';
+  font-family: 'Impact';
   text-align: center;
-  font-size: 38px;
-  color: white;
-  /*background-color: white;*/ }
+  font-size: 45px;
+  color: #daccbc;
+  font-weight: bold;
+  background-color: #362d24;
+  width: 770px;
+  margin: 15px auto 15px; }
 
 #ent {
   height: 50px;
   width: 200px;
   background-color: #c3a488;
   border: 3px solid #8d6b4d;
-  font-family: 'Crafty Girls';
+  font-family: 'Impact';
   font-size: 25px;
   color: #8d6b4d;
   margin-top: 20px; }
 
 #enter {
   position: absolute;
-  margin-left: 500px;
-  margin-top: 490px; }
+  margin: 0 auto;
+  left: 540px;
+  top: 590px; }
 
 #next {
-  position: relative;
-  left: 941px;
-  bottom: -250px;
-  background-color: transparent; }
+  display: inline-block;
+  position: absolute;
+  right: -80px;
+  top: 225px;
+  background-color: #8d6b4d;
+  z-index: 1; }
 
 #prev {
+  display: inline-block;
+  position: absolute;
+  left: -80px;
+  top: 225px;
+  background-color: #8d6b4d;
+  z-index: 1; }
+
+#carousel-container {
   position: relative;
-  left: 183px;
-  bottom: -250px;
-  background-color: #8d6b4d; }
+  width: 760px;
+  height: 450px;
+  margin: 0 auto;
+  bottom: 10px; }
 
 #next img {
   height: 50px;

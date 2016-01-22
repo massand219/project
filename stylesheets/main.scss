@@ -1,17 +1,23 @@
 $main-color: #8d6b4d;
 $other-color: #c3a488; 
+$title-color: #daccbc;
+$background-title: #362d24;
 
 #carousel {
 	position: relative;
-}
-#carousel img {
 	height: 450px;
 	width: 680px;
+	margin: 0 auto;
+	border: 40px solid $main-color;
+}
+
+#carousel img {
+	height: 100%;
+	width: 100%;
 	position: absolute;
 	display: none;
-	top: 0px;
-	left: 250px;
-	border: 40px solid $main-color
+	top: 0;
+	left: 0;
 }
 
 #carousel img:first-of-type {
@@ -19,19 +25,30 @@ $other-color: #c3a488;
 }
 
 h1 {
-	font-family: 'Crafty Girls';
+	font-family: 'Impact';
 	text-align: center;
-	font-size: 38px;
-	color: white;
-	/*background-color: white;*/
+	font-size: 45px;
+	color: $title-color;
+	font-weight: bold;
+	background-color: $background-title;
+	width: 770px;
+	margin: 15px auto 15px;
 }
+
+// #fc{
+// 	background-color: #362d24;
+// 	height: 20px;
+// 	width: 760px;
+// 	display: block;
+// 	margin: 0 auto;
+// }
 
 #ent {
 	height: 50px;
 	width: 200px;
 	background-color: $other-color;
 	border: 3px solid $main-color;
-	font-family: 'Crafty Girls';
+	font-family: 'Impact';
 	font-size: 25px;
 	color: $main-color;
 	margin-top: 20px;
@@ -39,22 +56,36 @@ h1 {
 
 #enter {
 	position: absolute;
-	margin-left: 500px;
-	margin-top: 490px;
+	margin: 0 auto;
+	left: 540px;
+	top: 590px;
 }
 
 #next {
-	position: relative;
-	left: 941px;
-	bottom: -250px;
-	background-color: transparent; 
+	display: inline-block;
+	position: absolute;
+	right: -80px;
+	top: 225px;
+	background-color: $main-color; 
+	z-index: 1;
 }
 
 #prev {
-	position: relative;
-	left: 183px;
-	bottom: -250px;
+	display: inline-block;
+	position: absolute;
+	left: -80px;
+	top: 225px;
 	background-color: $main-color;
+	z-index: 1;
+}
+
+#carousel-container {
+	position: relative;
+	width: 760px;
+	height: 450px;
+	margin: 0 auto;
+	bottom: 10px
+
 }
 
 #next img {
