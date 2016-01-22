@@ -98,6 +98,14 @@ h1 {
 	width: 50px;
 }
 
+#ent a {
+	text-decoration: none;
+	color: $main-color;
+}
+
+#ent a:hover {
+	text-decoration: underline;
+}
 
 body {
 	background-image: url("dog-paw.jpg");
