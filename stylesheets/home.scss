@@ -1,5 +1,35 @@
 $main-bk-color: #dbc8b7;
+$hover-color: #daccbc;
+$link-color: #8d6b4d;
 
 body {
 	background-color: $main-bk-color;
+}
+
+nav {
+	text-align: right;
+	border-bottom: 1px solid $link-color;
+}
+
+nav > ul > li { 
+	display: inline-block;
+	margin: 0 auto;
+	vertical-align: top;
+	width: 100px;
+	padding-bottom: 10px;
+}
+
+nav ul {
+	padding: 0;
+	font-family: "Impact";
+	font-size: 30px;
+}
+
+a:hover {;
+	color: $hover-color;
+}
+
+a {
+	text-decoration: none;
+	color: $link-color;
 }
