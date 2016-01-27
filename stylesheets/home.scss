@@ -1,5 +1,5 @@
 $main-bk-color: #dbc8b7;
-$hover-color: #daccbc;
+$hover-color: #413d38;
 $link-color: #8d6b4d;
 
 body {
@@ -8,7 +8,7 @@ body {
 
 nav {
 	text-align: right;
-	border-bottom: 1px solid $link-color;
+	border-bottom: 1px solid $hover-color;
 }
 
 nav > ul > li { 
@@ -17,12 +17,24 @@ nav > ul > li {
 	vertical-align: top;
 	width: 100px;
 	padding-bottom: 10px;
+	padding-right: 2px;
 }
 
 nav ul {
 	padding: 0;
 	font-family: "Impact";
 	font-size: 30px;
+	padding-right: 10px;
+}
+
+#back {
+	text-align: left;
+	font-family: "Impact";
+	font-size: 30px;
+	padding: 0;
+	float: left;
+	
+	
 }
 
 a:hover {;
@@ -32,4 +44,31 @@ a:hover {;
 a {
 	text-decoration: none;
 	color: $link-color;
+}
+
+h1 {
+	font-family: "Impact";
+	color: $hover-color;
+	font-size: 75px;
+	text-align: center;
+}
+
+#img {
+	text-align: center;
+}
+
+.img {
+	margin-top: 10px;
+	display: inline-block;
+
+}
+
+.img img:hover {
+	opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+}
+
+img {
+	width: 300px;
+	height: 200px;
 }
