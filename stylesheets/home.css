@@ -38,6 +38,25 @@ h1 {
   font-size: 75px;
   text-align: center; }
 
+h2 {
+  font-family: "Impact";
+  font-size: 25px;
+  text-align: left;
+  color: #8d6b4d;
+  margin-left: 25px; }
+
+p {
+  font-family: "Verdana";
+  font-size: 15px;
+  text-align: justify;
+  color: #413d38;
+  margin-left: 150px;
+  margin-right: 150px; }
+
+#about {
+  width: 100%;
+  background-color: #baa694; }
+
 #img {
   text-align: center; }
 
