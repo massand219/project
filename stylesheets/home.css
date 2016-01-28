@@ -9,22 +9,21 @@ nav > ul > li {
   display: inline-block;
   margin: 0 auto;
   vertical-align: top;
-  width: 100px;
   padding-bottom: 10px;
-  padding-right: 2px; }
+  padding-right: 15px; }
 
 nav ul {
   padding: 0;
   font-family: "Impact";
-  font-size: 30px;
-  padding-right: 10px; }
+  font-size: 30px; }
 
 #back {
   text-align: left;
   font-family: "Impact";
   font-size: 30px;
   padding: 0;
-  float: left; }
+  float: left;
+  padding-left: 10px; }
 
 a:hover {
   color: #413d38; }
