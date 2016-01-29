@@ -41,14 +41,19 @@ a {
 
 section {
 	margin-top: 0px;
-	margin-left: 90px;
+	/*margin-left: 90px;*/
 	/*padding: 20px;*/
 	height: 950px;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-position: center;
 
 	
+}
+
+#pugger11 {
+	background-position: bottom center;
 }
 
 #pugger {
@@ -86,4 +91,45 @@ section {
 }
 #pugger11 {
 	background-image: url(images2/pugger11.jpg);
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #dbc8b7;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #dbc8b7;
+    top: 5px;
 }

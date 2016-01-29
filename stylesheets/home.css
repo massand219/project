@@ -3,14 +3,19 @@ body {
 
 nav {
   text-align: right;
-  border-bottom: 1px solid #413d38; }
+  border-bottom: 1px solid #8d6b4d;
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  padding-top: 0;
+  padding-bottom: 20px; }
 
 nav > ul > li {
   display: inline-block;
   margin: 0 auto;
   vertical-align: top;
   padding-bottom: 10px;
-  padding-right: 15px; }
+  padding-right: 30px; }
 
 nav ul {
   padding: 0;
@@ -26,30 +31,32 @@ nav ul {
   padding-left: 10px; }
 
 a:hover {
-  color: #413d38; }
+  color: #8d6b4d; }
 
 a {
   text-decoration: none;
-  color: #8d6b4d; }
+  color: #413d38; }
 
 h1 {
   font-family: "Impact";
-  color: #413d38;
+  color: #8d6b4d;
   font-size: 75px;
-  text-align: center; }
+  text-align: center;
+  padding-top: 120px;
+  margin: 0 auto; }
 
 h2 {
   font-family: "Impact";
   font-size: 25px;
   text-align: left;
-  color: #8d6b4d;
+  color: #413d38;
   margin-left: 25px; }
 
 p {
   font-family: "Verdana";
   font-size: 15px;
   text-align: justify;
-  color: #413d38;
+  color: #8d6b4d;
   margin-left: 150px;
   margin-right: 150px; }
 
@@ -71,5 +78,45 @@ p {
 img {
   width: 300px;
   height: 200px; }
+
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: black;
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+#return-to-top i {
+  color: #dbc8b7;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9); }
+
+#return-to-top:hover i {
+  color: #dbc8b7;
+  top: 5px; }
 
 /*# sourceMappingURL=home.css.map */
