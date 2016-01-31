@@ -3,7 +3,8 @@
   height: 450px;
   width: 680px;
   margin: 0 auto;
-  border: 40px solid #8d6b4d; }
+  border: 40px solid #8d6b4d;
+  border-radius: 5px; }
 
 #carousel img {
   height: 100%;
@@ -24,7 +25,8 @@ h1 {
   font-weight: bold;
   background-color: #362d24;
   width: 770px;
-  margin: 15px auto 15px; }
+  margin: 15px auto 15px;
+  border-radius: 5px; }
 
 #ent {
   height: 50px;
@@ -34,7 +36,9 @@ h1 {
   font-family: 'Impact';
   font-size: 25px;
   color: #8d6b4d;
-  margin-top: 20px; }
+  margin-top: 20px;
+  border-radius: 5px;
+  border: #362d24; }
 
 #enter {
   position: absolute;
@@ -48,7 +52,9 @@ h1 {
   right: -80px;
   top: 225px;
   background-color: #8d6b4d;
-  z-index: 1; }
+  z-index: 1;
+  border-radius: 5px;
+  border: #362d24; }
 
 #prev {
   display: inline-block;
@@ -56,7 +62,9 @@ h1 {
   left: -80px;
   top: 225px;
   background-color: #8d6b4d;
-  z-index: 1; }
+  z-index: 1;
+  border-radius: 5px;
+  border: #362d24; }
 
 #carousel-container {
   position: relative;

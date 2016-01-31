@@ -98,9 +98,33 @@
 			</section>
 
 			<section id="contact">
-				<h2>Contact Us</h2>		
-				<p></p>
+				
+				<h2>Contact Us</h2>
+
+				<div id="location"><h3>Location and Info</h3></div>
+				<div id="contact-us">	
+					<div>We are conveniently located in New York City, with two locations; one in Jamaica Queens, NY and the other in Chelsea, NY. </div>
+					<br>
+					<div>If you would like to contact us, you may do so by calling (646)917-1347, or sending us an email at puggsterr@gmail.com.</div>
+					<br>
+					<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, et minus dolorum numquam.</div>
+				</div>
+				<div id="newsletter">
+					<h3>Sign Up for Emails!</h3>
+					<div id="signup">You can also sign up for our weekly newsletter featuring a new photo of a pug every Monday <button class="activate-modal">here</button> !
+					</div>
+					
+					<div id="signup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat corporis, sapiente est quibusdam, illum at commodi eius inventore impedit maxime atque in ipsam velit, quis ea dolore veniam. Ex, dolor!</div>
+				</div>
 			</section>
+
+			<div class="modal-wrapper">
+				<div class="modal">
+					<a href="#" class="exit">X</a>
+					<h3>Sign up for our weekly newsletter consisting of a photo of a little pugger every Monday!</h3>
+					<div>Enter your email below:</div><input type="text"><button>submit</button>
+				</div>
+			</div>
 	
 		<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
 		
@@ -119,6 +143,27 @@
 			    $('body,html').animate({
 			        scrollTop : 0                       // Scroll to top of body
 			    }, 500);
+			});
+			$(".activate-modal").click(function() {
+			$(".modal-wrapper").show();
+
+			//$("body").css("overflow", "hidden");
+			$("body").addClass("modal-on");
+		});
+
+			$(".modal").click(function(event) {
+				// Stop the click from propagating to the modal wrapper
+				event.stopPropagation();
+			});
+
+			$(".exit, .no, .modal-wrapper").click(function(event) {
+				// Don't act like a link
+				event.preventDefault();
+
+				$(".modal-wrapper").hide();
+
+				//$("body").css("overflow", "auto");
+				$("body").removeClass("modal-on");
 			});
 		});
 

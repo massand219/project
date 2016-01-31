@@ -8,7 +8,9 @@ nav {
   width: 100%;
   height: 75px;
   padding-top: 0;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  background-color: #dbc8b7;
+  opacity: .7; }
 
 nav > ul > li {
   display: inline-block;
@@ -78,6 +80,95 @@ p {
 img {
   width: 300px;
   height: 200px; }
+
+#location h3 {
+  font-family: "Impact";
+  font-size: 20px;
+  color: #413d38;
+  margin-left: 130px; }
+
+#contact-us {
+  float: left;
+  width: 420px;
+  margin-left: 130px;
+  font-family: "Verdana";
+  font-size: 15px;
+  text-align: justify;
+  color: #8d6b4d;
+  padding-bottom: 20px; }
+
+#newsletter h3 {
+  font-family: "Impact";
+  font-size: 20px;
+  color: #413d38;
+  margin-left: 680px;
+  margin-top: -45px; }
+
+#signup {
+  float: left;
+  width: 420px;
+  font-family: "Verdana";
+  font-size: 15px;
+  text-align: justify;
+  color: #8d6b4d;
+  margin-left: 130px;
+  margin-bottom: 20px; }
+
+#newsletter button {
+  width: 80px;
+  height: 20px;
+  color: #413d38;
+  background-color: #baa694;
+  font-size: 15px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #413d38; }
+
+.exit {
+  font-family: "Impact"; }
+
+.modal-wrapper {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none; }
+
+.modal-wrapper h3 {
+  font-family: "Impact";
+  font-size: 20px;
+  color: #8d6b4d; }
+
+.modal-wrapper div {
+  font-family: "Verdana";
+  font-size: 12px;
+  color: #413d38;
+  text-align: center; }
+
+.modal {
+  border: 1px solid #413d38;
+  background: #dbc8b7;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  margin-top: -200px;
+  /* half of its height */
+  border-radius: 10px;
+  padding: 30px; }
+
+button {
+  width: 50px;
+  height: 20px;
+  color: #413d38;
+  background-color: #baa694;
+  font-size: 10px;
+  border-radius: 5px;
+  border: 1px solid #413d38;
+  font-family: "Verdana"; }
 
 #return-to-top {
   position: fixed;
