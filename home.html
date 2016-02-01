@@ -11,7 +11,7 @@
 		<nav>
 			<ul>
 				<li id="back"><a href="index.html">Back to Welcome</a></li>
-				<li><a href="home.html">Home</a></li>
+				<li><a href="#">Home</a></li>
 				<li><a href="#img">Photos</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="#contact">Contact</a></li>
@@ -130,9 +130,27 @@
 		
 		
 		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script> -->
 		
 		<script>
 		$(document).ready(function(){
+
+		// 	// Do this when we click a nav link
+		// function navLinkClicked(event) {
+		// 	// Stop links from acting like links
+		// 	event.preventDefault();
+		// 	if (nav.attr('href') === '#') {
+
+		// 	// Get the href of the link we clicked
+		// 	var href = $(this).attr("href");
+
+		// 	// Take 1s to scroll to that href
+		// 	$(window).scrollTo(href, 1000, {offset: -100});
+		// }
+		// }
+
+		// $("nav ul a").click(navLinkClicked);
+
 
 			$(window).scroll(function() {
 			    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px

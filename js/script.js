@@ -6,7 +6,7 @@ var i = 0;
 function showNextLooped() {
 	images.eq(i).fadeOut();
 	i = (i+1) % images.length;
-	console.log("interval" + i);
+	// console.log("interval" + i);
 	images.eq(i).fadeIn();
 
 }
@@ -19,7 +19,7 @@ function showPrevious() {
 	images.eq(i).hide();
 
 	i = (i <= 0) ? images.length - 1 : i - 1 ;
-	console.log("prev" + i);
+	// console.log("prev" + i);
 	images.eq(i).show();
 
 	interval = setInterval(showNextLooped, 2000);

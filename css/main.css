@@ -93,4 +93,62 @@ body {
   background-position: center;
   background-color: #8d6b4d; }
 
+@media all and (min-width: 1440px) {
+  #enter {
+    left: 620px; } }
+@media all and (max-width: 936px) {
+  #enter {
+    left: 370px;
+    top: 440px; }
+
+  #carousel {
+    height: 300px;
+    width: 530px; }
+
+  #next, #prev {
+    top: 145px; }
+
+  #next {
+    right: 0px; }
+
+  #prev {
+    left: 0px; } }
+@media all and (max-width: 768px) {
+  #enter {
+    left: 290px; } }
+@media all and (max-width: 760px) {
+  h1 {
+    font-size: 30px; }
+
+  #enter {
+    left: 330px;
+    top: 290px; }
+
+  #ent {
+    height: 40px;
+    width: 100px;
+    font-size: 20px; }
+
+  #carousel {
+    height: 210px;
+    width: 430px;
+    border: 20px solid #8d6b4d;
+    border-radius: 5px; }
+
+  #next, #prev {
+    top: 100px; }
+
+  #next {
+    right: 100px; }
+
+  #prev {
+    left: 100px; }
+
+  #next img, #prev img {
+    height: 30px;
+    width: 30px; }
+
+  body {
+    overflow: hidden; } }
+
 /*# sourceMappingURL=main.css.map */
