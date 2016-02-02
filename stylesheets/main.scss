@@ -198,5 +198,49 @@ body {
 	body {
 		overflow: hidden;
 	}
-
 }
+@media all and (max-width: 414px) {
+	body {
+		margin-left: -80px;
+	}
+	
+	#carousel {
+		height: 100px;
+		width: 230px;
+		border: 10px solid $main-color;
+		border-radius: 5px;
+		margin-left: 150px;
+	}
+
+	#enter {
+		left: 150px;
+		top: 160px;
+	}
+
+	#ent {
+		height: 30px;
+		width: 90px;
+		font-size: 15px;
+	}
+
+	#next , #prev {
+		top: 50px;
+	}
+
+	#next {
+		right: 315px;
+	}
+
+	#prev {
+		left: 105px;
+	}
+	
+	h1 {
+		margin-left: -105px;
+	}
+
+	* {
+		margin: 0 auto;
+	}
+}
+

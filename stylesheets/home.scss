@@ -267,3 +267,162 @@ button {
     color: $main-bk-color;
     top: 5px;
 }
+
+@media all and (max-width: 1115px) {
+	#contact-us {
+		margin: 0 auto;
+	}
+
+	h1 {
+		font-size: 50px;
+	}
+	p {
+		margin: 0 auto;
+	}
+
+}
+
+@media all and (max-width: 985px) {
+	#signup {
+		margin: 0 62px;
+	}
+
+	#newsletter h3 {
+		margin-left: 610px;
+	}
+	#about {
+		margin: 0 auto;
+	}
+}
+
+@media all and (max-width: 985px) {
+	#signup {
+		margin: 0 50px;
+	}
+	#about {
+		margin: 0 auto;
+	}
+}
+
+@media all and (max-width: 955px) {
+	#signup {
+		margin: 0 45px;
+	}
+	#about {
+		margin: 0 auto;
+	}
+}
+
+@media all and (max-width: 945px) {
+	#signup {
+		margin: 0 10px;
+	}
+	#about {
+		margin: 0 auto;
+	}
+}
+
+@media all and (max-width: 768px) {
+	#signup {
+		margin-left: 50px;
+		width: 300px;
+	}
+	#newsletter h3 {
+		margin-left: 400px;
+	}
+
+	#contact-us {
+		width: 300px;
+	}
+
+	#location h3 {
+		margin-left: 80px;
+	}
+	#about {
+		margin: 0 auto;
+	}
+}
+
+@media all and (max-width: 414px) {
+	#signup {
+		margin-left: 50px;
+		width: 150px;
+	}
+	#newsletter h3 {
+		margin-left: 200px;
+	}
+
+	#contact-us {
+		width: 150px;
+	}
+
+	#location h3 {
+		margin-left: 0px;
+	}
+
+	h1 {
+		font-size: 35px;
+	}
+
+	nav ul {
+		font-size: 20px;
+	}
+
+	#back {
+		font-size: 20px;
+	}
+
+	.modal {
+		height: 150px;
+		width: 200px;
+		// margin: 0 auto;
+	}
+	.modal-wrapper h3 {
+		font-size: 15px;
+	}
+
+	// nav li a {
+	// 	display: block;
+	// 	width: 60px;
+	// 	float: right;
+	// 	margin: 0;
+	// }
+
+	#back {
+		text-align: right;
+		// font-family: "Impact";
+		// font-size: 30px;
+		padding: 0;
+		// clear: both;
+		// padding-left: 10px;
+		// float: right;
+
+	}
+	nav > ul > li { 
+		display: block;
+		margin: 0;
+		vertical-align: center;
+		padding-bottom: 0px;
+		padding-right: 10px;
+		padding-top: 0px;
+	}
+
+	nav {
+		height: 90px;
+		padding-top: 0;
+		margin-top: 0;
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+	}
+
+	* {
+	    margin: 5px;
+	}
+
+	#about {
+		margin: 0 auto;
+	}
+}
